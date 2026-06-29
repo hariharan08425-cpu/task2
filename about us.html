@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,600;1,400&family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style for about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    </head>
+<body>
+<nav class="navbar">
+    <div class="logo">
+        <span class="logo-icon">☕ Coffee</span>
+    </div>
+
+    <div class="menu-toggle" id="menu-toggle">
+        <i class="fas fa-bars"></i>
+    </div>
+
+    <ul class="nav-links" id="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="about us.html">About Us</a></li>
+        <li><a href="services.html">Our Services</a></li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1>Our Speciality Brews</h1>
+            <p>Crafted with passion. Sourced with care. Ground daily.</p>
+            <button class="btn-primary">Explore Menu</button>
+        </div>
+    </section>
+
+    <section class="team-gallery">
+        <div class="team-member">
+            <img src="images/abu - Copy.jfif">
+        </div>
+        <div class="team-member">
+            <img src="images/8270945_5439.jpg">
+        </div>
+        <div class="team-member">
+            <img src="images/about-us-support-help-ask-question-concept.jpg">
+        </div>
+    </section>
+
+    <section class="services">
+        
+        <div class="services-row top-row">
+            <div class="service-block">
+                <div class="icon-placeholder">☕</div>
+                <h4>Artisanal Espresso</h4>
+                <p>Our beans are single-origin, roasted locally every week to ensure every single shot features an perfectly balanced flavor profile and a rich crema.</p>
+            </div>
+            <div class="service-block">
+                <div class="icon-placeholder">🥐</div>
+                <h4>Fresh Pastries</h4>
+                <p>Baked fresh every morning by our local pastry chefs. From flaky butter croissants to vegan muffins, we have the perfect pairing for your brew.</p>
+            </div>
+        </div>
+
+        <hr class="divider">
+
+        <div class="services-row bottom-row">
+            <div class="service-feature">
+                <div class="icon-placeholder">🌱</div>
+                <h5>Ethically Sourced</h5>
+                <p>We work directly with fair-trade farms to support sustainable agriculture.</p>
+            </div>
+            <div class="service-feature">
+                <div class="icon-placeholder">💻</div>
+                <h5>Free Wi-Fi</h5>
+                <p>A warm space with high-speed internet, plenty of outlets, and comfortable seating.</p>
+            </div>
+            <div class="service-feature">
+                <div class="icon-placeholder">✨</div>
+                <h5>Community Events</h5>
+                <p>Join us for live acoustic sets, open mic nights, and weekend brewing workshops.</p>
+            </div>
+        </div>
+
+    </section>
+  <footer class="main-footer">
+        <div class="footer-top-divider"></div>
+        <div class="footer-container">
+            <div class="footer-column">
+                <h3>Products</h3>
+                <ul>
+                    <li><a href="#">Coffee Beans</a></li>
+                    <li><a href="#">Espresso Machines</a></li>
+                    <li><a href="#">Merchandise</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Category</h3>
+                <ul>
+                    <li><a href="#">Dark Roast</a></li>
+                    <li><a href="#">New Flavors</a></li>
+                    <li><a href="#">Weekly Specials</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Company Info</h3>
+                <ul>
+                    <li><a href="#">About us</a></li>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Payment Options</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Gift Cards</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Follow us</h3>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="bottom-links">
+                <a href="#">Data settings</a>
+                <a href="#">Cookie settings</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms And Conditions</a>
+                <a href="#">Imprint</a>
+            </div>
+        </div>
+    </footer>
+<script>
+        const menuToggle = document.getElementById("menu-toggle");
+        const navLinks = document.getElementById("nav-links");
+
+        menuToggle.addEventListener("click", () => {
+            navLinks.classList.toggle("active");
+        });
+    </script>
+</body>
+</html>
